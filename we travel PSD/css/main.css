@@ -19,14 +19,14 @@ body {
     width: 100%;
     height: 100%;
 	background: #63A7A9 url('../img/bg.jpg') no-repeat center;
-	background-size: cover; /*что бы занимать всю площадь экрана*/	
+	background-size: cover;	
 }
 
 .container {
 	width: 100%;
 	height: 100%;
 	margin: 0 auto;
-	max-width: 1570px; /*ширина по сетке*/
+	max-width: 1570px;
 }
 
 .header {
@@ -170,7 +170,7 @@ label {
 #check-menu:checked ~ .fourth {
     display: none;
 }
-/* the end nav burger*/
+/* \ nav burger*/
 
 .title {
 	max-width: 945px;
