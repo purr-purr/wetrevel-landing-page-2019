@@ -4,7 +4,6 @@
 	<meta charset="UTF-8">
 	<title>wetravel</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!-- <link rel="stylesheet" href="css/normalize.css"> -->
 	<link rel="stylesheet" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700,700i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800|PT+Sans:400,400i,700,700i&display=swap&subset=cyrillic" rel="stylesheet">
 </head>
@@ -15,15 +14,15 @@
 			<div class="logo">
 				<a class="logo__title" href="#">wetravel</a>
 			</div>
+			<div class="burger">
 			<div class="line-wrapper"></div>
-			<div class="burger__wrapper">
 				<input type="checkbox" id="check-menu">
-				<label for="check-menu"></label>
-					<div class="burger-line first"></div>
-					<div class="burger-line second"></div>
-					<div class="burger-line third"></div>
-					<div class="burger-line fourth"></div>
-					<nav class="main-menu">
+				<label class="burger__label" for="check-menu"></label>
+					<div class="burger__line first"></div>
+					<div class="burger__line second"></div>
+					<div class="burger__line third"></div>
+					<div class="burger__line fourth"></div>
+					<nav class="burger__main-menu">
 						<a class="burger__link" href="#">Choise Tour</a>
 						<a class="burger__link" href="#">About Us</a>
 						<a class="burger__link" href="#">Gallery</a>
@@ -33,43 +32,71 @@
 		</div>
 	</div>
 </header>
-
+<!-- main section -->
 <section class="section">
 	<div class="container">
 		<div class="title">
 			<h1>Find your perfect journey</h1>
 		</div>
 		<div class="tour">
-			<div class="tour-nav">
-				<div class="tour-nav__nearest"><a href="#">Nearest</a></div>
-				<div class="tour-nav__ready"><a href="#">Ready?</a></div>
-				<div class="tour-nav__number"><a href="#"><span>Call us </span>+1 888 888 99 99</a></div>
-			</div>
+			<div class="tour__inner">
+				<div class="tour__nearest"><a href="#">Nearest</a></div>
 
-			<div class="tour-and-footer">
 				<div class="tour-choise">
-					<a href="#" class="tour__wrapper tour__wrapper--active">
-						<h3 class="tour__title">Switzerland</h3>
-						<p class="tour__data">01.12.19</p>
+					<a href="#" class="tour-choise__wrapper tour-choise__wrapper--active">
+						<h3 class="tour-choise__title">Switzerland</h3>
+						<p class="tour-choise__data">01.12.19</p>
+						<div class="arrow">
+							<?xml version="1.0" encoding="iso-8859-1"?>
+							<svg width="35" height="35" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+								viewBox="0 0 476.213 476.213" style="enable-background:new 0 0 476.213 476.213;" xml:space="preserve">
+							<polygon points="345.606,107.5 324.394,128.713 418.787,223.107 0,223.107 0,253.107 418.787,253.107 324.394,347.5 
+								345.606,368.713 476.213,238.106 "/>
+							</svg>
+						</div>
 					</a>
-					<a href="#" class="tour__wrapper">
-						<h3 class="tour__title">Thailand</h3>
-						<p class="tour__data">01.01.20</p>
+					<a href="#" class="tour-choise__wrapper">
+						<h3 class="tour-choise__title">Thailand</h3>
+						<p class="tour-choise__data">01.01.20</p>
+						<div class="arrow">
+							<?xml version="1.0" encoding="iso-8859-1"?>
+							<svg width="35" height="35" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+								viewBox="0 0 476.213 476.213" style="enable-background:new 0 0 476.213 476.213;" xml:space="preserve">
+							<polygon points="345.606,107.5 324.394,128.713 418.787,223.107 0,223.107 0,253.107 418.787,253.107 324.394,347.5 
+								345.606,368.713 476.213,238.106 "/>
+							</svg>
+						</div>
 					</a>
-					<a href="#" class="tour__wrapper">
-						<h3 class="tour__title">India</h3>
-						<p class="tour__data">01.02.20</p>
+					<a href="#" class="tour-choise__wrapper">
+						<h3 class="tour-choise__title">India</h3>
+						<p class="tour-choise__data">01.02.20</p>
+						<div class="arrow">
+							<?xml version="1.0" encoding="iso-8859-1"?>
+							<svg width="35" height="35" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+								viewBox="0 0 476.213 476.213" style="enable-background:new 0 0 476.213 476.213;" xml:space="preserve">
+							<polygon points="345.606,107.5 324.394,128.713 418.787,223.107 0,223.107 0,253.107 418.787,253.107 324.394,347.5 
+								345.606,368.713 476.213,238.106 "/>
+							</svg>
+						</div>
 					</a>
 				</div>
-				<!-- footer -->
-				<footer id="footer">
-					<div class="footer__container">
-						<p>We need you to discover the
-					greatest routest of planet Earth. </p>
-						<button class="btn" href="#">Join Us</button>
-					</div>
-				</footer>
 			</div>
+<!-- footer -->
+			<footer class="footer">
+				<div class="footer__wrapper--one">
+					<div class="footer__ready"><a href="#">Ready?</a></div>
+					<div class="footer__number"><a href="#">
+						<?xml version="1.0" encoding="utf-8"?>
+							<svg width="30" height="30" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1408 1193q0-11-2-16t-18-16.5-40.5-25-47.5-26.5-45.5-25-28.5-15q-5-3-19-13t-25-15-21-5q-15 0-36.5 20.5t-39.5 45-38.5 45-33.5 20.5q-7 0-16.5-3.5t-15.5-6.5-17-9.5-14-8.5q-99-55-170-126.5t-127-170.5q-2-3-8.5-14t-9.5-17-6.5-15.5-3.5-16.5q0-13 20.5-33.5t45-38.5 45-39.5 20.5-36.5q0-10-5-21t-15-25-13-19q-3-6-15-28.5t-25-45.5-26.5-47.5-25-40.5-16.5-18-16-2q-48 0-101 22-46 21-80 94.5t-34 130.5q0 16 2.5 34t5 30.5 9 33 10 29.5 12.5 33 11 30q60 164 216.5 320.5t320.5 216.5q6 2 30 11t33 12.5 29.5 10 33 9 30.5 5 34 2.5q57 0 130.5-34t94.5-80q22-53 22-101zm256-777v960q0 119-84.5 203.5t-203.5 84.5h-960q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z"/></svg>
+						<span>Call us </span>+1 888 888 99 99</a></div>
+				</div>
+
+				<div class="footer__wrapper--two">
+					<h3 class="footer__title"> We need you to discover the
+				greatest routest of planet Earth.</h3>
+					<button class="footer__button" href="#">Join Us</button>
+				</div>
+			</footer>
 		</div>
 	</div>
 </section>
