@@ -303,17 +303,19 @@ html {
 	}
 	&__number {
 		color: #000;
-		font-size: 17px;
+		font-size: 20px;
 		padding: 5px 10px;
 		background: rgba(0, 0, 0, 0.09);
 		backdrop-filter: blur(3px);
 	}
 	&__number:hover {
 		text-decoration: underline;
+		background: #fff;
 	}
 	&__number span {
-		font-weight: 400;
+		font-weight: 600;
 		padding-right: 10px;
+		font-size: 18px;
 	}
 	&__title {
 		width: 235px;
@@ -328,12 +330,12 @@ html {
 		text-decoration: none;
 		color: #000;
 		transition: background .1s linear, color .1s linear;
-		background: rgba(0, 0, 0, 0.01);
+		background: rgba(0, 0, 0, 0.09);
+		backdrop-filter: blur(2px);
 		cursor: pointer;
 	}
 	&__button:hover {
-		background: rgba(0, 0, 0, 0.01);
-		backdrop-filter: blur(2px);
+		background: #fff;
 	}
 }
 
