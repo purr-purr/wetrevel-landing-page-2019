@@ -113,11 +113,11 @@ html {
     color: #000; }
 
 .line-wrapper {
-  height: 80px;
-  width: 80px;
+  height: 65px;
+  width: 65px;
   position: absolute;
-  right: -10px;
-  top: -20px;
+  right: -5px;
+  top: -13px;
   background: rgba(0, 0, 0, 0.09);
   -webkit-backdrop-filter: blur(3px);
           backdrop-filter: blur(3px); }

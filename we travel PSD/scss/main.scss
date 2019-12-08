@@ -8,11 +8,11 @@ body {
 }
 
 html {
-        background: url('../img/bg.jpg') no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+	background: url('../img/bg.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 * {
@@ -126,11 +126,11 @@ html {
 }
 
 .line-wrapper {
-	height: 80px;
-	width: 80px;
-	position: absolute;
-    right: -10px;
-    top: -20px;
+	height: 65px;
+    width: 65px;
+    position: absolute;
+    right: -5px;
+    top: -13px;
 	background: rgba(0, 0, 0, 0.09);
 	backdrop-filter: blur(3px);
 }
